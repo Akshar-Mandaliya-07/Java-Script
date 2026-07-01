@@ -1,4 +1,4 @@
-// Primitive
+// Primitive :- Number , String , Boolean , Null , Undefined , Symbol and BigInt
 let mySymbol = Symbol("12%4323")
 console.log(typeof mySymbol);
 
