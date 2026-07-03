@@ -20,7 +20,7 @@ console.log(undefined >= 0);
 console.log(undefined < 0);
  */
 
-console.log("2" === 2); // Strict Equality Operator - False
+console.log("2" === 2); // Strict Equality Operator - False , With Also Check Data Type
 
 
 
