@@ -54,3 +54,4 @@ function returnSecondElement(getAray){
 }
 console.log(returnSecondElement([myArray]))
 
+//hhjhj
