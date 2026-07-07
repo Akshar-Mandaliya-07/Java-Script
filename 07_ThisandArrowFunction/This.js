@@ -10,3 +10,4 @@ const MyObject = {
 MyObject.printName()
 MyObject.name = "Akshar Mandaliya"
 MyObject.printName()
+
