@@ -5,4 +5,4 @@ arr.forEach( function (val){
 arr.forEach( (item) => {
     console.log(item);
     
-})
+});
