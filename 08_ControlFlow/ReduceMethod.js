@@ -91,6 +91,6 @@ const books = [
 ];
 
 // calculate book price
-const BookPrice = books.reduce( (accumlator,books) => accumlator + books.price,0)
+const BookPrice = books.reduce( (accumlator,book) => accumlator + book.price,0)
 console.log(BookPrice);
 
