@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <h2>Fetch API</h2>
+</body>
+<script>
+    async function getData(){
+        let answer = await fetch("https://jsonplaceholder.typicode.com/posts")
+        let data = await answer.json()
+        console.log(data)
+        console.log(data[0]) // Can Access the First Array Element
+    }
+    getData()
+
+    // async function return the promise.
+    // async function MyFunction(){
+    //     console.log("Hii Akshar Mandaliya")
+    // }
+    // const output = MyFunction()
+</script>
+</html>
