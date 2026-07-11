@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+</head>
+
+<body style="background-color: lightblue;">
+    <h1>Hello World</h1>
+</body>
+<script>
+    // console.log("Akshar");
+    const MyObject = {
+        id : 1,
+        name : "Akshar",
+        calculateSalary(){
+            // console.log("Inside Function");
+        }
+    }
+    // console.log(MyObject);
+    
+    const MyNewObject = {
+        salary : 30000
+    }
+    // console.log(MyNewObject);
+    
+    MyNewObject.__proto__ = MyObject
+    // console.log(MyNewObject.calculateSalary());
+    
+
+    // in Both Object Declare Same function and Apply Prototype So Used Second Object Function.
+    const first = {
+        id : 1,
+        name : "Akshar",
+        MyFunction(){
+            console.log(`${this.name}`);
+        }
+    }
+    first.MyFunction()
+
+    const second = {
+        id : 1,
+        name : "Akshar Mandaliya",
+        MyFunction(){
+            console.log(`${this.name}`);
+        }
+    }
+    second.__proto__ = first
+    second.MyFunction()
+    
+</script>
+
+</html>
