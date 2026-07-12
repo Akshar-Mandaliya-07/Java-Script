@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM learning</title>
+</head>
+<body>
+    <h1 id="heading">Hello World</h1>
+    <button onclick="changetext()">click me</button>
+
+    <h1 id="change">Hiii JS.....</h1>
+    <button onclick="change()">Change Text</button>
+</body>
+<script>
+    function changetext()
+    {
+        document.getElementById("heading").innerHTML = "Hello Akshar Mandaliya"
+    }
+    function change(){
+        document.getElementById("change").innerHTML = "Hiii Power Full Java Script"
+    }
+</script>
+</html>
