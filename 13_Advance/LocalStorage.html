@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Experiement</title>
+</head>
+<body>
+    <h1>Local Storage</h1>
+</body>
+<script>
+    console.log("Akshar Mandaliya")
+    localStorage.setItem("name","Akshar") // Store Name
+    localStorage.setItem("name","Akshar Mandaliya") // Update Name
+    localStorage.setItem("name","Akshar") // Update Name
+    const value1 = localStorage.getItem("name") 
+    console.log("Value is :- ",value1) // Value is Akshar
+
+    // let key = prompt("Enter Key to Store in localStorage :- ")
+    // let value = prompt("Enter Value to Store in a Key")
+    // localStorage.setItem(key,value)
+
+    // let key = prompt("Enter Key to Delete in localStoage")
+    // localStorage.removeItem(key)
+
+
+    console.log("Length is :- ",localStorage.length)
+</script>
+</html>
