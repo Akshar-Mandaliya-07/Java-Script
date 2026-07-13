@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading1" class="MyClass">Hello World</h1>
+    <h1 id="heading2" class="MySecondClass">Learning Java Script</h1>
+</body>
+<script>
+    const id = document.getElementById("heading1")
+    console.log(id)
+
+    console.log(id.textContent);
+
+    console.log(document.getElementById("heading1").id)
+    console.log(document.getElementById("heading1").className)
+
+    console.log(document.getElementById("heading1").getAttribute("id"))
+    console.log(document.getElementById("heading1").getAttribute("class"))
+
+    console.log(document.getElementById("heading1").setAttribute("id","MyNewId"))
+    //console.log(document.getElementById("heading1").setAttribute("class","MyNewClass"))
+    document.getElementById("MyNewId").setAttribute("class","MyNewClass")
+
+    const My = document.getElementById("MyNewId")
+    
+    console.log(document.getElementById("MyNewId").innerHTML)
+    console.log(document.getElementById("MyNewId").style.color = "red")
+    console.log(document.getElementById("MyNewId").style.backgroundColor = "blue")
+
+    
+</script>
+</html>
