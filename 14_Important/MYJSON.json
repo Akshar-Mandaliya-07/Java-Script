@@ -1,0 +1,16 @@
+const MyJSON = `{
+            "ID" : 1 , 
+            "NAME" : "Akshar Mandaliya" , 
+            "EMAIl" : "akshar@google.com" , 
+            "ISLOGIN" : false , 
+            "MYARR" : [10,20,30]
+}`
+const MyObject = JSON.parse(MyJSON)
+MyObject.city = "Rajkot"
+console.log(MyObject)
+console.log(MyObject["ID"])
+
+const MYNEWJSON = JSON.stringify(MyObject)
+console.log(MYNEWJSON)
+
+console.log(MyObject["id"])
